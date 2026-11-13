@@ -1,0 +1,26 @@
+{
+  "name": "botdeflector-pow",
+  "version": "1.0.0",
+  "description": "Node.js proof of work for graph-cycle challenges: issue, solve, and verify. No dependencies.",
+  "author": "mavroth",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mavroth/botdeflector-pow.git"
+  },
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "bin": {
+    "bdpow": "bin/solve.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "bench": "node bin/bench.js",
+    "bench:heavy": "node bin/bench.js --heavy",
+    "solve": "node bin/solve.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

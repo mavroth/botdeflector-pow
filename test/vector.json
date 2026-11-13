@@ -1,0 +1,54 @@
+{
+  "params": {
+    "NODES_BITS": 14,
+    "EDGES_BITS": 16,
+    "CYCLE_LENGTH": 8,
+    "GRAPH_SEED": "mavroth-pow-v1"
+  },
+  "challenges": [
+    "a4c1e09b7d2f48c6b1aa33e0d95c7741f6b08e2d4c7a19f35e6d80b2c4f17a90",
+    "08b6d3e15a9c4f270e6b81d4c2a7f9053e1b6d8a4c0f2957b3e6a1d8c4f0725e",
+    "f31a90c6e2b8475d0a4e6c8b1d9f2035a7c4e6b8d0f192a3c5e7b9d1f4a6082c"
+  ],
+  "expected": [
+    {
+      "challenge": "a4c1e09b7d2f48c6b1aa33e0d95c7741f6b08e2d4c7a19f35e6d80b2c4f17a90",
+      "edgeIndices": [
+        536,
+        2767,
+        33939,
+        35782,
+        41216,
+        2182,
+        14684,
+        32394
+      ]
+    },
+    {
+      "challenge": "08b6d3e15a9c4f270e6b81d4c2a7f9053e1b6d8a4c0f2957b3e6a1d8c4f0725e",
+      "edgeIndices": [
+        394,
+        8361,
+        2685,
+        31277,
+        14849,
+        40603,
+        47623,
+        52821
+      ]
+    },
+    {
+      "challenge": "f31a90c6e2b8475d0a4e6c8b1d9f2035a7c4e6b8d0f192a3c5e7b9d1f4a6082c",
+      "edgeIndices": [
+        20151,
+        6938,
+        2577,
+        49002,
+        21927,
+        34602,
+        23714,
+        39026
+      ]
+    }
+  ]
+}
